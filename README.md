@@ -12,10 +12,8 @@ Attach all files and write readme in GitHub
 ## ✨ Features
 
 - **Modern Design** - Clean and elegant interface
-- **Fully Responsive** - Works on all devices
 - **Animated Particles** - Beautiful background effects
 - **Typing Effect** - Dynamic text animation
-- **Smooth Animations** - Reveal effects on scroll
 
 ---
 
@@ -27,14 +25,6 @@ Attach all files and write readme in GitHub
 
 ---
 
-## 🚀 Quick Start
-
-1. Download all files
-2. Open HTML file in browser
-3. Customize text, colors, and phrases as needed
-
----
-
 ## 🎨 Customization
 
 **Edit Information:**
@@ -43,7 +33,7 @@ Attach all files and write readme in GitHub
 - Modify skill categories and experience
 
 **Change Colors:**
-- Update CSS color variables to match your brand
+- Update CSS color variables 
 
 **Typing Phrases:**
 - Edit phrases in the JavaScript file
