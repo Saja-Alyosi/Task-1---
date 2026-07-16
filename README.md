@@ -7,7 +7,7 @@ Create and design personal website
 
 Attach all files and write readme in GitHub
 
-✨ The solution:
+✨ The solution
 
 ## ✨ Key Features
 
@@ -198,12 +198,6 @@ Add new experience entries to the timeline section by creating additional timeli
 
 ---
 
-## 📝 License
-
-This project is open source and ready for personal or professional use.
-
----
-
 ## 🤝 Contributing
 
 Feel free to improve and enhance the website!
@@ -216,13 +210,3 @@ Feel free to improve and enhance the website!
 - Integrate with blog or news feed
 
 ---
-
-## 📞 Support
-
-For questions or issues, check the code comments or reach out through GitHub.
-
----
-
-**Made with ❤️ by Saja**
-
-Last Updated: 2026
