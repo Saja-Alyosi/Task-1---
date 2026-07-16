@@ -50,10 +50,3 @@ Attach all files and write readme in GitHub
 
 ---
 
-## 📱 Responsive Design
-
-- Desktop (1200px+): Full experience
-- Tablet (700-992px): 2-column layout
-- Mobile (<700px): Single column layout
-
----
