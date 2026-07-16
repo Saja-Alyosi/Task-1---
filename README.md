@@ -1,6 +1,4 @@
-# 🎨 Saja's Portfolio Website
-
-🌐 **[View Live Website](https://saja.free.je/?i=1)**
+# 🌐 **[Saja's Portfolio Website](https://saja.free.je/?i=1)**
 
 
 # 🌟 Task Instructions
