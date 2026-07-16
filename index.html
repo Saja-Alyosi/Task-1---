@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saja | Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%237c3aed'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='52' font-weight='700' fill='%23ffffff' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Brand Logo -->
+    <a href="#" class="brand-logo" aria-label="Saja home">
+        <span class="logo-mark">S</span>
+    </a>
+
+    <!-- Particles Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="reveal" style="transition-delay:0.05s;">
+                    <span class="line1">Hello, I'm</span>
+                    <span class="line2">Saja</span>
+                </h1>
+                <div class="hero-typed-wrapper reveal" style="transition-delay:0.15s;">
+                    <span class="static">✦</span>
+                    <span class="typed-text" id="typed-text"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section-skills" id="skills">
+        <div class="container">
+            <div class="reveal">
+                <span class="section-label"><i class="fas fa-cog"></i> Skills</span>
+                <h2 class="section-title">My <span class="highlight">toolbox</span></h2>
+                <p class="section-sub">Technologies and tools I work with to bring ideas to life.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category reveal-scale">
+                    <div class="cat-icon"><i class="fas fa-terminal"></i></div>
+                    <h3>Programming</h3>
+                    <div class="tags">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-java"></i> Java</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fas fa-code"></i> C++</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal-scale" style="transition-delay:0.06s;">
+                    <div class="cat-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Web</h3>
+                    <div class="tags">
+                        <span><i class="fab fa-html5"></i> HTML</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fab fa-php"></i> PHP</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal-scale" style="transition-delay:0.12s;">
+                    <div class="cat-icon"><i class="fas fa-database"></i></div>
+                    <h3>Database</h3>
+                    <div class="tags">
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal-scale" style="transition-delay:0.18s;">
+                    <div class="cat-icon"><i class="fas fa-desktop"></i></div>
+                    <h3>Operating Systems</h3>
+                    <div class="tags">
+                        <span><i class="fab fa-ubuntu"></i> Ubuntu</span>
+                        <span><i class="fas fa-skull"></i> Kali Linux</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal-scale" style="transition-delay:0.24s;">
+                    <div class="cat-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <div class="tags">
+                        <span><i class="fab fa-github"></i> GitHub</span>
+                        <span><i class="fas fa-code"></i> VS Code</span>
+                        <span><i class="fas fa-edit"></i> Notepad++</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal-scale" style="transition-delay:0.30s;">
+                    <div class="cat-icon"><i class="fas fa-pen-fancy"></i></div>
+                    <h3>Design</h3>
+                    <div class="tags">
+                        <span><i class="fab fa-figma"></i> Figma</span>
+                        <span><i class="fas fa-paint-brush"></i> Canva</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal-scale" style="transition-delay:0.36s;">
+                    <div class="cat-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>Microsoft Office</h3>
+                    <div class="tags">
+                        <span><i class="fas fa-file-word"></i> Word</span>
+                        <span><i class="fas fa-file-excel"></i> Excel</span>
+                        <span><i class="fas fa-file-powerpoint"></i> PowerPoint</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal-scale" style="transition-delay:0.42s;">
+                    <div class="cat-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Business Intelligence</h3>
+                    <div class="tags">
+                        <span class="highlight-tag"><i class="fas fa-chart-pie"></i> Microsoft Power BI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience (Timeline) -->
+    <section class="section-experience" id="experience">
+        <div class="container">
+            <div class="reveal">
+                <span class="section-label"><i class="fas fa-briefcase"></i> Experience</span>
+                <h2 class="section-title">Where I've <span class="highlight">contributed</span></h2>
+                <p class="section-sub">Volunteering and leadership roles that shaped my journey.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal-left">
+                    <div class="exp-card">
+                        <div class="icon"><i class="fas fa-leaf"></i></div>
+                        <h4>ELM Club Member</h4>
+                        <div class="org">ELM</div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-scale" style="transition-delay:0.1s;">
+                    <div class="exp-card">
+                        <div class="icon"><i class="fas fa-star"></i></div>
+                        <h4>Mawhiba Member</h4>
+                        <div class="org">Mawhiba</div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-right" style="transition-delay:0.2s;">
+                    <div class="exp-card">
+                        <div class="icon"><i class="fas fa-university"></i></div>
+                        <h4>Core Volunteer Team</h4>
+                        <div class="org">Taif University</div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-left" style="transition-delay:0.3s;">
+                    <div class="exp-card">
+                        <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                        <h4>Core Volunteer Team</h4>
+                        <div class="org">Saudi Red Crescent Authority</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub CTA -->
+    <section class="section-github" id="github">
+        <div class="container">
+            <div class="github-card reveal-scale">
+                <div class="left">
+                    <div class="icon"><i class="fab fa-github"></i></div>
+                    <div class="info">
+                        <h3>Explore my code</h3>
+                        <p>See what I'm building on GitHub</p>
+                    </div>
+                </div>
+                <a href="https://github.com/Saja" target="_blank" class="btn-github">
+                    <i class="fab fa-github"></i> github.com/Saja
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
